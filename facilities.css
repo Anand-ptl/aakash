@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f0f0f0; */
+  background-image: url("backg.jpg");
+  background-size: cover; /* Cover the entire area of the container */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+}
+
+.nav2 {
+  width: 100%;
+  height: 80px;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: -1px 70px;
+  opacity: 0.99;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+font-weight: bold;
+
+  padding: 10px 20px;
+  transition: all ;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  
+}
+.menu a:hover {
+  background-color: #e67e22;
+  /* background-color: orange; */
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #666;
+} */
+
+.div {
+  display: flex;
+  border: 2px solid red;
+  /* padding: 100px; */
+  padding: 95px 75px;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  align-items: center;
+}
+h2 {
+  background-color: orange;
+
+  display: flex;
+  justify-content: center;
+  border-radius:10px;
+}
+
+.div1 img {
+  width: 550px;
+  height: auto;
+}
+
+.div1 {
+  margin: 5px 30px;
+  border: 1px solid;
+  width: 550px;
+  font-weight: bold;
+  background-color: white;
+}

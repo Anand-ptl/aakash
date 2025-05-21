@@ -1,0 +1,50 @@
+body {
+    background-image: url(hosmid2.jpg);
+    background-size: cover;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+#signupForm{
+  width: 300px; 
+  margin: 50px auto; 
+  /* border: 1px solid #ddd;  */
+  padding: 20px; 
+  /* border-radius: 5px;  */
+  /* backdrop-filter: blur(15px); */
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+    box-sizing: border-box; 
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    color: #007bff; 
+    text-decoration: none; 
+  }

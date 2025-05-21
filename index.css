@@ -1,0 +1,88 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+
+.nav2 img{
+position: static;
+}
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    opacity: 0.99;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+body {
+    background-image: url('hostelfront.jpg');
+    background-size: cover; /* Cover the entire area of the container */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;   
+
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(120, 160, 203, .45); /* Adjust color and opacity here */
+    pointer-events: none; /* Allows clicks to pass through to the body */
+  }
+
+
+header
+{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.h-text{
+    max-width: 600px;
+    /* color: black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h-text h1{
+    font-size: 3em;
+    color: black;
+    /* opacity: 1; */
+    
+    
+}
+.h-text span{
+    color: black;
+    
+}
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+.h-text a{
+    text-decoration: none;
+    color: black;
+    background: #e67e22;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+}
+.menu a:hover {
+    background-color: red;
+  }
+
+.h-text a:hover{
+    color:yellow;
+}
